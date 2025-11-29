@@ -1,0 +1,10 @@
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+height = float(input("Enter height (in cm): "))
+gender = input("Enter gender (M/F): ")
+
+print("\n--- Student Data ---")
+print("Name:", name)
+print("Age:", age, "years")
+print("Height:", height, "cm")
+print("Gender:", gender)
